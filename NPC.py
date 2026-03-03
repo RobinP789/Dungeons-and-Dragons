@@ -7,7 +7,7 @@ gender = ['male', 'female', 'male', 'female', 'male', 'female', 'male', 'female'
 marriage = ['married', 'married', 'not married', 'not married', 'not married']
 kids = ['no children', 'no children', 'no children', 'one child', 'one child', 'two children', 'two children', 'two children', 'three or more children']
 vibe = ['girly pop', 'scholarly', 'horny', 'vexing', 'n intense', 'relaxed', 'n artistic', 'type A', 'pious', 'sychophant', 'jock', 'goth', 'n inquisitive', 'generous']
-quirk = ['narcolepsy', 'RBF', 'many piercings', 'a large scar', 'monochomatic clothing', 'a colourful scarf', 'a missing finger', 'tattoos', 'an elaborate hairstyle', 'heterochromia', 'a pet cat', 'a pet dog', 'a pet bird', 'a pet reptile', 'a gambling addiction', 'a drinking problem', 'the mouth of a sailor', 'a large mole', 'a pock-marked face', 'glasses', 'glasses', 'glasses', 'a lazy eye', 'disheveled hair', 'a visible birthmark', 'a shellfish allergy', 'a nut allergy', 'a bee allergy', 'lactose intolerance', 'bad breath', 'exessive body hair', 'a limp', 'a loud laugh', 'a hyena-like laugh']
+quirk = ['narcolepsy', 'RBF', 'many piercings', 'a large scar', 'monochomatic clothing', 'a colourful scarf', 'a missing finger', 'tattoos', 'an elaborate hairstyle', 'heterochromia', 'a pet cat', 'a pet dog', 'a pet bird', 'a pet reptile', 'a gambling addiction', 'a drinking problem', 'the mouth of a sailor', 'a large mole', 'a pock-marked face', 'glasses', 'glasses', 'glasses', 'a lazy eye', 'disheveled hair', 'a visible birthmark', 'a shellfish allergy', 'a nut allergy', 'a bee allergy', 'lactose intolerance', 'bad breath', 'exessive body hair', 'a limp', 'a loud laugh', 'a hyena-like laugh', 'a burn scar', 'a weird trinket', 'an eye twitch', 'a persistant itch', 'a lisp', 'missing teeth', 'a smoking addiction', 'a fake beard/fake breasts', 'an instrument strapped to their back', 'vitilagio', 'a twin', 'chronic pain', 'a missing limb']
 
 rage = random.choice(age)
 rloc = random.choice(location)
@@ -24,4 +24,5 @@ print("who is", rmar)
 
 if rmar == 'married':
         print("and has", rkid)
+
 
